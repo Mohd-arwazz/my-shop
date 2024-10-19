@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">MyShop</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+        <div class="user-options">
+            <a href="#">Login</a>
+            <a href="#">Cart (0)</a>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Home & Furniture</a></li>
+            <li><a href="#">Books</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="https://img.freepik.com/free-psd/banner-template-with-online-shopping_23-2148545459.jpg?w=1380&t=st=1729364981~exp=1729365581~hmac=411de5821fb98301a58af867edc9580cf655b9342cdf5ae54e48e16fc5f5bff9" alt="Banner">
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories">
+        <h2>Popular Categories</h2>
+        <div class="category-grid">
+            <div class="category-item">
+                <img src="https://cdn.vectorstock.com/i/1000v/27/43/electronics-flat-banner-vector-9382743.jpg" alt="Electronics">
+                <p>Electronics</p>
+            </div>
+            <div class="category-item">
+                <img src="https://img.freepik.com/free-vector/fashion-sale-with-discount-template_23-2148936503.jpg" alt="Fashion">
+                <p>Fashion</p>
+            </div>
+            <div class="category-item">
+                <img src="https://i.pinimg.com/736x/c1/93/67/c1936775282b4102e7d36e900327381e.jpg" alt="Home Furniture">
+                <p>Home & Furniture</p>
+            </div>
+            <div class="category-item">
+                <img src="https://i.pinimg.com/736x/c5/79/6d/c5796df4f44ea2c26643da920b15d5d7.jpg" alt="Books">
+                <p>Books</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products (Dynamic Section) -->
+    <section class="products" id="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid" id="product-grid">
+            <!-- Products will be inserted here dynamically -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2024 MyShop. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
